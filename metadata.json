@@ -1,8 +1,8 @@
 {
   "name": "linuxpatch-linuxpatch_puppet",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": "linuxpatch",
-  "summary": "A Puppet module for managing Linux patches",
+  "summary": "A Puppet module for LinuxPatch.com, a Patch Management platform. LinuxPatch.com offers automated Linux patch management, enabling secure, real-time updates with features like CVE reporting and Healthchecks. Free for up to 3 servers.",
   "license": "Apache-2.0",
   "source": "https://github.com/linuxpatch/linuxpatch-puppet",
   "project_page": "https://github.com/linuxpatch/linuxpatch-puppet",
@@ -53,5 +53,14 @@
         "8"
       ]
     }
-  ]
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 7.24 < 9.0.0"
+    }
+  ],
+  "pdk-version": "3.2.0",
+  "template-url": "pdk-default#3.2.0",
+  "template-ref": "tags/3.2.0-0-gb257ef1"
 }
