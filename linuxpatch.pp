@@ -11,7 +11,7 @@ class linuxpatch (
   # Define the exec resource to run the script with the API_KEY
   exec { 'run_install_script':
     command     => '/tmp/install.sh',
-    environment => "API_KEY=${api_key}",
+    environment => "LP_KEY=${api_key}",
     cwd         => '/tmp',
     onlyif      => 'test ! -f /opt/linuxpatch/bin/linuxpatch',
     require     => File['/tmp/install.sh'],
