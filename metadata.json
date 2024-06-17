@@ -1,8 +1,8 @@
 {
   "name": "linuxpatch-linuxpatch_puppet",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "linuxpatch",
-  "summary": "A Puppet module for LinuxPatch.com, a Patch Management platform. LinuxPatch.com offers automated Linux patch management, enabling secure, real-time updates with features like CVE reporting and Healthchecks. Free for up to 3 servers.",
+  "summary": "LinuxPatch.com is a Patch Management platform. LinuxPatch.com offers automated Linux patch management, enabling secure, real-time updates with features like CVE reporting and Healthchecks. Free for up to 3 servers.",
   "license": "Apache-2.0",
   "source": "https://github.com/linuxpatch/linuxpatch-puppet",
   "project_page": "https://github.com/linuxpatch/linuxpatch-puppet",
@@ -51,6 +51,20 @@
       "operatingsystemrelease": [
         "7",
         "8"
+      ]
+    },
+    {
+      "operatingsystem": "Rocky",
+      "operatingsystemrelease": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "AlmaLinux",
+      "operatingsystemrelease": [
+        "8",
+        "9"
       ]
     }
   ],
