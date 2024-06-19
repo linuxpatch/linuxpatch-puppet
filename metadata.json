@@ -1,8 +1,8 @@
 {
-  "name": "linuxpatch-linuxpatch_puppet",
+  "name": "linuxpatch-agent",
   "version": "0.1.5",
   "author": "linuxpatch",
-  "summary": "LinuxPatch.com is a Patch Management platform. LinuxPatch.com offers automated Linux patch management, enabling secure, real-time updates with features like CVE reporting and Healthchecks. Free for up to 3 servers.",
+  "summary": "Linux patch management with LinuxPatch.com: automated updates, CVE reporting, Healthchecks, and free for up to 3 servers. Secure & real-time.",
   "license": "Apache-2.0",
   "source": "https://github.com/linuxpatch/linuxpatch-puppet",
   "project_page": "https://github.com/linuxpatch/linuxpatch-puppet",
