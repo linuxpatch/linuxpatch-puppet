@@ -40,26 +40,3 @@ By using the LinuxPatch.com agent with Puppet, you ensure your Linux environment
 
 - `lp_key`: The API key required for the script execution. You should provide your actual API key.
 
-## Usage
-
-1. **Clone the repository or create the module file**:
-
-   Save the module content into a file named `linuxpatch.pp`.
-
-2. **Set up the Puppet Manifest**:
-
-   Ensure you have a manifest file (`site.pp` or any other name) that includes the target nodes. Here is an example of a manifest file:
-
-   ```puppet
-   node 'server1.example.com' {
-     class { 'linuxpatch':
-       lp_key => 'your_lp_key_here',
-     }
-   }
-
-   node 'server2.example.com' {
-     class { 'linuxpatch':
-       lp_key => 'your_lp_key_here',
-     }
-   }
-  ```
