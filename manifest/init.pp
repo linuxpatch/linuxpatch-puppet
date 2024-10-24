@@ -7,12 +7,13 @@
 class linuxpatch (
   # The API key required for the Linux Patch agent installation.
   String $api_key,
+  String $lp_url = 'https://linuxpatch.com',
 ) {
   # Define the file resource to download the install.sh script
   file { '/tmp/install.sh':
     ensure => 'file', # Ensure the file is present
     mode   => '0755', # Set the file permissions to be executable
-    source => 'https://linuxpatch.com/install.sh', # Source URL for the install.sh script
+    source => "${lp_url}/install.sh", # Source URL for the install.sh script
   }
 
   # Define the exec resource to run the script with the API_KEY

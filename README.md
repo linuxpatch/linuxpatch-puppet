@@ -21,6 +21,7 @@ Integrating LinuxPatch.com's agent into your existing Puppet infrastructure is s
 - **Automated Installation**: The Puppet module downloads the `install.sh` script directly from LinuxPatch.com and runs it with your specific `LP_KEY`.
 - **Conditional Execution**: The script runs only if the `/opt/linuxpatch/bin/linuxpatch` file is absent, preventing redundant installations.
 - **Service Management**: Ensures the `linuxpatch-agent` service is running and set to start on boot, maintaining continuous protection.
+- **Customizable URL**: The module allows you to specify the URL for the installation script, which can be useful for testing or custom environments.
 
 #### Benefits
 
