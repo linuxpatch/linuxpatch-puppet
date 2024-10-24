@@ -1,6 +1,6 @@
 {
   "name": "linuxpatch-agent",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "linuxpatch",
   "summary": "Linux patch management with LinuxPatch.com: automated updates, CVE reporting, Healthchecks, and free for up to 3 servers. Secure & real-time.",
   "license": "Apache-2.0",
